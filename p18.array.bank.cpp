@@ -43,7 +43,8 @@ int main()
         cin>>aadhar;
         list_of_users.push_back(person(name,pan,aadhar));
     }
-
+}
     for(person user: list_of_users)
     {
         user.display_details();
+    }
